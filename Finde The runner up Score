@@ -1,0 +1,12 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    
+
+
+    #how do i arrange an array
+    
+    arr = list(set(arr)) # removes duplicates in the list 
+    arr.sort(reverse=True)
+    print(arr[1])  
+    
