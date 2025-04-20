@@ -1,0 +1,18 @@
+
+
+S = input()
+k = input ()
+
+k_len = len(k)
+avail = ()     
+position = S.find(k)
+if position ==-1:
+        print("(-1,-1)")
+
+#avail = avail +(position,)
+for i in range(len(S)-len(k)+1):
+    if S[i:i +k_len]==k :   #checking if substring is in S and if there any letters to check so it doesnt go out of bounds
+        print(f"({i}, {i+k_len-1})")
+    else:
+        continue
+    
