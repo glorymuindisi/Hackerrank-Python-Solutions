@@ -7,7 +7,7 @@ k_len = len(k)
 avail = ()     
 position = S.find(k)
 if position ==-1:
-        print("(-1,-1)")
+        print((-1,-1))
 
 #avail = avail +(position,)
 for i in range(len(S)-len(k)+1):
